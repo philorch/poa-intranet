@@ -1,0 +1,25 @@
+/*
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+@import url("../../../ckeditor/_source/skins/v2/reset.css");
+@import url("../../../ckeditor/_source/skins/v2/mainui.css");
+@import url("../../../ckeditor/_source/skins/v2/panel.css");
+@import url("../../../ckeditor/_source/skins/v2/toolbar.css");
+@import url("../../../ckeditor/_source/skins/v2/menu.css");
+@import url("../../../ckeditor/_source/skins/v2/richcombo.css");
+@import url("../../../ckeditor/_source/skins/v2/elementspath.css");
+@import url("../../../ckeditor/_source/skins/v2/icons.css");
+@import url("../../../ckeditor/_source/skins/v2/presets.css");
+
+/* Restore the container visibility */
+html .cke_skin_v2
+{
+	visibility: inherit;
+}
+
+html.cke_skin_v2_container
+{
+	visibility: visible;
+}

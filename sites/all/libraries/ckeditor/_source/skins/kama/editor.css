@@ -1,0 +1,25 @@
+/*
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+@import url("../../../ckeditor/_source/skins/kama/reset.css");
+@import url("../../../ckeditor/_source/skins/kama/mainui.css");
+@import url("../../../ckeditor/_source/skins/kama/panel.css");
+@import url("../../../ckeditor/_source/skins/kama/toolbar.css");
+@import url("../../../ckeditor/_source/skins/kama/menu.css");
+@import url("../../../ckeditor/_source/skins/kama/richcombo.css");
+@import url("../../../ckeditor/_source/skins/kama/elementspath.css");
+@import url("../../../ckeditor/_source/skins/kama/icons.css");
+@import url("../../../ckeditor/_source/skins/kama/presets.css");
+
+/* Restore the container visibility */
+html .cke_skin_kama
+{
+	visibility: inherit;
+}
+
+html.cke_skin_kama_container
+{
+	visibility: visible;
+}

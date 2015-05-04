@@ -1,0 +1,5 @@
+ErrorDocument 403 https://intranet.philorch.org/drew-403.php
+
+order deny,allow
+deny from all
+allow from 10.2.6. 10.2.0.254 172.16.90.

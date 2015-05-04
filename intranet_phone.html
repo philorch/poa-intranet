@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Octaves - The Philadelphia Orchestra Association Intranet</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCCC;
+}
+.style4 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.style8 {font-size: 12px}
+.style9 {color: #FFFFFF; font-family: Arial, Helvetica, sans-serif;}
+.style10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.style12 {font-size: 12px; font-weight: bold; }
+.style14 {color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+-->
+</style>
+
+<style type="text/css">
+<!--
+.style18 {color: #990000}
+.style19 {color: #FF0000}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function formcheck(){
+if (document.reservations.lastname.value==''){alert('Please enter a last name to search on.');document.reservations.lastname.focus();return false};
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//-->
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/octaves_button_over.gif')">
+<table width="600" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <th bgcolor="#FFFFFF" scope="col">&nbsp;</th>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" scope="col"><div align="left">
+      <table width="95%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#CCCCCC">
+        <tr>
+          <td valign="top" scope="col"><table width="565" cellpadding="0" cellspacing="5">
+            <tr>
+              <td width="413" valign="top" scope="col"><p class="head"><FONT face="Arial, Helvetica, sans-serif">Phone Lists</FONT></p>
+                <table width="100%" border="0">
+                  <tr>
+                    <td width="6%" align="right"></td>
+                    <td width="94%" valign="top" class="bullets">
+                      <!-- <form name='reservations' method=post action='phonesearch.php?option=login' onSubmit='return formcheck();'> -->
+                      <form name='reservations' method=post action='phonelist/phonesearchall.php' onSubmit='return formcheck();'>
+                        <font face="Arial, Helvetica, sans-serif"><b>POA Phone System Search on Last Name <small> <br>
+                          (If you do not know the exact spelling, type the first few letters of the last name and click submit.)</small></b><br>
+                          <input type=text name='lastname' size=10 maxlength=50>
+                          <!-- <br> -->
+                          <!-- <input CHECKED type=radio name='domain' value='0'>POA / AOM / TP<br> -->
+                          <!-- <input type=radio name='domain' value='1'>KCI / RA<br> -->
+                          <input type=hidden name='domain' value='3'>
+                          <input type='Submit' border='0' name='Submit' value='Submit'>
+                          </font>
+                        </form></td></tr>
+                  <tr valign="top">
+                    <td width="6%" align="right"><div align="left"><font face="Arial, Helvetica, sans-serif"><a href="phonelist/phonesearch.php?option=login&lastname=*&domain=0" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button1pl1','','images/octaves_button_over.gif',1)"><img src="images/octaves_button.gif" width="15" height="15" border="0" name="button1pl1"></a></font></div></td>
+                    <td width="94%" height="0" class="bullets"><font face="Arial, Helvetica, sans-serif">POA / TP / AOM Staff Phone List (by Last Name)</font></td>
+                    </tr>
+                  <tr valign="top">
+                    <td width="6%" align="right"><div align="left"><font face="Arial, Helvetica, sans-serif"><a href="phonelist/phonesearch.php?option=login&lastname=*&domain=1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button1pl1','','images/octaves_button_over.gif',1)"><img src="images/octaves_button.gif" width="15" height="15" border="0" name="button1pl1"></a></font></div></td>
+                    <td width="94%" height="0" class="bullets"><font face="Arial, Helvetica, sans-serif">KCI / RA Staff Phone List (by Last Name)</font></td>
+                    </tr>
+                  <tr valign="top">
+                    <td width="6%" align="right"><div align="left"><font face="Arial, Helvetica, sans-serif"><a href="phonelist/staticphones.html?option=login&lastname=*" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button1pl11','','images/octaves_button_over.gif',1)"><img src="images/octaves_button.gif" width="15" height="15" border="0" name="button1pl11"></a></font></div></td>
+                    <td width="94%" height="0" class="bullets"><font face="Arial, Helvetica, sans-serif">POA Hotlines and Conference Rooms</font></td>
+                    </tr>
+                </table></td>
+            </tr>
+          </table>          
+          </td>
+        </tr>
+      </table>
+    </div></td>
+  </tr>
+  <tr>
+    <th bgcolor="#FFFFFF" scope="col"><div align="left">
+    </div></th>
+  </tr>
+  <tr>
+    <th bgcolor="#FFFFFF" scope="col">&nbsp;</th>
+  </tr>
+</table>
+</body>
+</html>
